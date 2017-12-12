@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Primera aplicación",
+  "main": "index.js",
+  "scripts": {
+    "test": "sin testeo",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "mongo"
+  ],
+  "author": "Manuel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5"
+  }
+}
